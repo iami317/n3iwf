@@ -10,9 +10,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/free5gc/n3iwf/internal/logger"
-	"github.com/free5gc/n3iwf/internal/ngap/message"
-	"github.com/free5gc/n3iwf/pkg/context"
+	"github.com/projectdiscovery/n3iwf/internal/ngap/message"
+	"github.com/projectdiscovery/n3iwf/pkg/context"
+	"github.com/projectdiscovery/n3iwf/pkg/logger"
 )
 
 var tcpListener net.Listener

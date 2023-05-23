@@ -5,8 +5,8 @@ import (
 	"errors"
 
 	"github.com/free5gc/aper"
-	"github.com/free5gc/n3iwf/internal/logger"
 	"github.com/free5gc/ngap/ngapType"
+	"github.com/projectdiscovery/n3iwf/pkg/logger"
 )
 
 // 3GPP specified EAP-5G

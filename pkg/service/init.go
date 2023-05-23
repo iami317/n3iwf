@@ -14,14 +14,14 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"
 
-	"github.com/free5gc/n3iwf/internal/logger"
-	ngap_service "github.com/free5gc/n3iwf/internal/ngap/service"
-	nwucp_service "github.com/free5gc/n3iwf/internal/nwucp/service"
-	nwuup_service "github.com/free5gc/n3iwf/internal/nwuup/service"
-	n3iwf_context "github.com/free5gc/n3iwf/pkg/context"
-	"github.com/free5gc/n3iwf/pkg/factory"
-	ike_service "github.com/free5gc/n3iwf/pkg/ike/service"
-	"github.com/free5gc/n3iwf/pkg/ike/xfrm"
+	ngap_service "github.com/projectdiscovery/n3iwf/internal/ngap/service"
+	nwucp_service "github.com/projectdiscovery/n3iwf/internal/nwucp/service"
+	nwuup_service "github.com/projectdiscovery/n3iwf/internal/nwuup/service"
+	n3iwf_context "github.com/projectdiscovery/n3iwf/pkg/context"
+	"github.com/projectdiscovery/n3iwf/pkg/factory"
+	ike_service "github.com/projectdiscovery/n3iwf/pkg/ike/service"
+	"github.com/projectdiscovery/n3iwf/pkg/ike/xfrm"
+	"github.com/projectdiscovery/n3iwf/pkg/logger"
 )
 
 type N3iwfApp struct {

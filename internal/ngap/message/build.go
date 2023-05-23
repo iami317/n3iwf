@@ -5,12 +5,12 @@ import (
 	"encoding/hex"
 
 	"github.com/free5gc/aper"
-	"github.com/free5gc/n3iwf/internal/logger"
-	"github.com/free5gc/n3iwf/internal/util"
-	"github.com/free5gc/n3iwf/pkg/context"
 	"github.com/free5gc/ngap"
 	"github.com/free5gc/ngap/ngapConvert"
 	"github.com/free5gc/ngap/ngapType"
+	"github.com/projectdiscovery/n3iwf/internal/util"
+	"github.com/projectdiscovery/n3iwf/pkg/context"
+	"github.com/projectdiscovery/n3iwf/pkg/logger"
 )
 
 func BuildNGSetupRequest() ([]byte, error) {

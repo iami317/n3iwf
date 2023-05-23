@@ -19,10 +19,10 @@ import (
 	gtpv1 "github.com/wmnsk/go-gtp/gtpv1"
 	"golang.org/x/net/ipv4"
 
-	"github.com/free5gc/n3iwf/internal/logger"
-	"github.com/free5gc/n3iwf/pkg/factory"
 	"github.com/free5gc/ngap/ngapType"
 	"github.com/free5gc/util/idgenerator"
+	"github.com/projectdiscovery/n3iwf/pkg/factory"
+	"github.com/projectdiscovery/n3iwf/pkg/logger"
 )
 
 var n3iwfContext N3IWFContext

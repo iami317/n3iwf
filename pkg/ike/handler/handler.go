@@ -17,10 +17,10 @@ import (
 	"github.com/vishvananda/netlink"
 	"golang.org/x/sys/unix"
 
-	"github.com/free5gc/n3iwf/internal/logger"
-	"github.com/free5gc/n3iwf/pkg/context"
-	ike_message "github.com/free5gc/n3iwf/pkg/ike/message"
-	"github.com/free5gc/n3iwf/pkg/ike/xfrm"
+	"github.com/projectdiscovery/n3iwf/pkg/context"
+	ike_message "github.com/projectdiscovery/n3iwf/pkg/ike/message"
+	"github.com/projectdiscovery/n3iwf/pkg/ike/xfrm"
+	"github.com/projectdiscovery/n3iwf/pkg/logger"
 )
 
 func HandleIKESAINIT(udpConn *net.UDPConn, n3iwfAddr, ueAddr *net.UDPAddr, message *ike_message.IKEMessage,

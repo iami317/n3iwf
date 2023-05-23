@@ -8,8 +8,8 @@ import (
 	"github.com/vishvananda/netlink"
 	gtpv1 "github.com/wmnsk/go-gtp/gtpv1"
 
-	ike_message "github.com/free5gc/n3iwf/pkg/ike/message"
 	"github.com/free5gc/ngap/ngapType"
+	ike_message "github.com/projectdiscovery/n3iwf/pkg/ike/message"
 )
 
 const (

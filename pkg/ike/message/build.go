@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"net"
 
-	"github.com/free5gc/n3iwf/internal/logger"
+	"github.com/projectdiscovery/n3iwf/pkg/logger"
 )
 
 func (ikeMessage *IKEMessage) BuildIKEHeader(
