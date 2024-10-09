@@ -7,8 +7,8 @@ import (
 
 	"github.com/free5gc/aper"
 	"github.com/free5gc/ngap/ngapType"
-	"github.com/projectdiscovery/n3iwf/pkg/factory"
-	"github.com/projectdiscovery/n3iwf/pkg/logger"
+	"github.com/iami317/n3iwf/pkg/factory"
+	"github.com/iami317/n3iwf/pkg/logger"
 )
 
 func PlmnIdToNgap(plmnId factory.PLMNID) (ngapPlmnId ngapType.PLMNIdentity) {

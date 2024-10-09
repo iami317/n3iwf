@@ -7,9 +7,9 @@ import (
 
 	"github.com/vishvananda/netlink"
 
-	"github.com/projectdiscovery/n3iwf/pkg/context"
-	"github.com/projectdiscovery/n3iwf/pkg/ike/message"
-	"github.com/projectdiscovery/n3iwf/pkg/logger"
+	"github.com/iami317/n3iwf/pkg/context"
+	"github.com/iami317/n3iwf/pkg/ike/message"
+	"github.com/iami317/n3iwf/pkg/logger"
 )
 
 type XFRMEncryptionAlgorithmType uint16

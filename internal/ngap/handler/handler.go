@@ -5,15 +5,15 @@ import (
 	"net"
 	"time"
 
-	"git.cs.nctu.edu.tw/calee/sctp"
+	"github.com/iami317/sctp"
 
 	"github.com/free5gc/aper"
 	"github.com/free5gc/ngap/ngapConvert"
 	"github.com/free5gc/ngap/ngapType"
-	gtp_service "github.com/projectdiscovery/n3iwf/internal/gtp/service"
-	ngap_message "github.com/projectdiscovery/n3iwf/internal/ngap/message"
-	"github.com/projectdiscovery/n3iwf/pkg/context"
-	"github.com/projectdiscovery/n3iwf/pkg/logger"
+	gtp_service "github.com/iami317/n3iwf/internal/gtp/service"
+	ngap_message "github.com/iami317/n3iwf/internal/ngap/message"
+	"github.com/iami317/n3iwf/pkg/context"
+	"github.com/iami317/n3iwf/pkg/logger"
 )
 
 func HandleNGSetupResponse(sctpAddr string, conn *sctp.SCTPConn, message *ngapType.NGAPPDU) {

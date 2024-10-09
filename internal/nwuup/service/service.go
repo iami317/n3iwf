@@ -10,10 +10,10 @@ import (
 	gtpMsg "github.com/wmnsk/go-gtp/gtpv1/message"
 	"golang.org/x/net/ipv4"
 
-	"github.com/projectdiscovery/n3iwf/internal/gre"
-	gtpQoSMsg "github.com/projectdiscovery/n3iwf/internal/gtp/message"
-	"github.com/projectdiscovery/n3iwf/pkg/context"
-	"github.com/projectdiscovery/n3iwf/pkg/logger"
+	"github.com/iami317/n3iwf/internal/gre"
+	gtpQoSMsg "github.com/iami317/n3iwf/internal/gtp/message"
+	"github.com/iami317/n3iwf/pkg/context"
+	"github.com/iami317/n3iwf/pkg/logger"
 )
 
 // Run bind and listen IPv4 packet connection on N3IWF NWu interface

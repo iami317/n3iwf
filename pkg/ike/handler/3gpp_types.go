@@ -6,8 +6,8 @@ import (
 
 	"github.com/free5gc/aper"
 	"github.com/free5gc/ngap/ngapType"
-	"github.com/projectdiscovery/n3iwf/pkg/ike/message"
-	"github.com/projectdiscovery/n3iwf/pkg/logger"
+	"github.com/iami317/n3iwf/pkg/ike/message"
+	"github.com/iami317/n3iwf/pkg/logger"
 )
 
 // 3GPP specified EAP-5G

@@ -11,7 +11,7 @@ import (
 	"github.com/asaskevich/govalidator"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/projectdiscovery/n3iwf/pkg/logger"
+	"github.com/iami317/n3iwf/pkg/logger"
 )
 
 var N3iwfConfig *Config

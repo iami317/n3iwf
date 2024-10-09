@@ -4,9 +4,9 @@ import (
 	"net"
 	"runtime/debug"
 
-	"github.com/projectdiscovery/n3iwf/pkg/ike/handler"
-	ike_message "github.com/projectdiscovery/n3iwf/pkg/ike/message"
-	"github.com/projectdiscovery/n3iwf/pkg/logger"
+	"github.com/iami317/n3iwf/pkg/ike/handler"
+	ike_message "github.com/iami317/n3iwf/pkg/ike/message"
+	"github.com/iami317/n3iwf/pkg/logger"
 )
 
 func IkeDispatch(udpConn *net.UDPConn, localAddr, remoteAddr *net.UDPAddr, msg []byte) {

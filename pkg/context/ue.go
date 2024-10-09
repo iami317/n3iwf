@@ -9,7 +9,7 @@ import (
 	gtpv1 "github.com/wmnsk/go-gtp/gtpv1"
 
 	"github.com/free5gc/ngap/ngapType"
-	ike_message "github.com/projectdiscovery/n3iwf/pkg/ike/message"
+	ike_message "github.com/iami317/n3iwf/pkg/ike/message"
 )
 
 const (

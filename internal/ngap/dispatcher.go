@@ -3,13 +3,13 @@ package ngap
 import (
 	"runtime/debug"
 
-	"git.cs.nctu.edu.tw/calee/sctp"
+	"github.com/iami317/sctp"
 
 	"github.com/free5gc/ngap"
 	"github.com/free5gc/ngap/ngapType"
-	"github.com/projectdiscovery/n3iwf/internal/ngap/handler"
-	"github.com/projectdiscovery/n3iwf/pkg/context"
-	"github.com/projectdiscovery/n3iwf/pkg/logger"
+	"github.com/iami317/n3iwf/internal/ngap/handler"
+	"github.com/iami317/n3iwf/pkg/context"
+	"github.com/iami317/n3iwf/pkg/logger"
 )
 
 func NGAPDispatch(conn *sctp.SCTPConn, msg []byte) {

@@ -7,14 +7,14 @@ import (
 	"sync"
 	"time"
 
-	"git.cs.nctu.edu.tw/calee/sctp"
+	"github.com/iami317/sctp"
 
 	lib_ngap "github.com/free5gc/ngap"
-	"github.com/projectdiscovery/n3iwf/internal/ngap"
-	"github.com/projectdiscovery/n3iwf/internal/ngap/handler"
-	"github.com/projectdiscovery/n3iwf/internal/ngap/message"
-	"github.com/projectdiscovery/n3iwf/pkg/context"
-	"github.com/projectdiscovery/n3iwf/pkg/logger"
+	"github.com/iami317/n3iwf/internal/ngap"
+	"github.com/iami317/n3iwf/internal/ngap/handler"
+	"github.com/iami317/n3iwf/internal/ngap/message"
+	"github.com/iami317/n3iwf/pkg/context"
+	"github.com/iami317/n3iwf/pkg/logger"
 )
 
 var (
@@ -157,7 +157,7 @@ func Receiver(localAddr, remoteAddr *sctp.SCTPAddr, errChan chan<- error, ngapSe
 
 	data := make([]byte, 65535)
 	for {
-		n, info, _, err := conn.SCTPRead(data)
+		n, info, err := conn.SCTPRead(data)
 
 		if err != nil {
 			logger.NgapLog.Debugf("[SCTP] AMF SCTP address: %s", remoteAddr)

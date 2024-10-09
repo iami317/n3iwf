@@ -12,7 +12,7 @@ import (
 
 	"github.com/asaskevich/govalidator"
 
-	"github.com/projectdiscovery/n3iwf/pkg/logger"
+	"github.com/iami317/n3iwf/pkg/logger"
 )
 
 const (

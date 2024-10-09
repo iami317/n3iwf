@@ -6,7 +6,7 @@ import (
 
 	gtpMessage "github.com/wmnsk/go-gtp/gtpv1/message"
 
-	"github.com/projectdiscovery/n3iwf/pkg/logger"
+	"github.com/iami317/n3iwf/pkg/logger"
 )
 
 // [TS 38.415] 5.5.2 Frame format for the PDU Session user plane protocol

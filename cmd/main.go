@@ -9,9 +9,9 @@ import (
 
 	logger_util "github.com/free5gc/util/logger"
 	"github.com/free5gc/util/version"
-	"github.com/projectdiscovery/n3iwf/pkg/factory"
-	"github.com/projectdiscovery/n3iwf/pkg/logger"
-	"github.com/projectdiscovery/n3iwf/pkg/service"
+	"github.com/iami317/n3iwf/pkg/factory"
+	"github.com/iami317/n3iwf/pkg/logger"
+	"github.com/iami317/n3iwf/pkg/service"
 )
 
 var N3IWF *service.N3iwfApp

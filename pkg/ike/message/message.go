@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/projectdiscovery/n3iwf/pkg/logger"
+	"github.com/iami317/n3iwf/pkg/logger"
 )
 
 type IKEMessage struct {

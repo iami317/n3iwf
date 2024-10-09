@@ -8,9 +8,9 @@ import (
 	gtp "github.com/wmnsk/go-gtp/gtpv1"
 	gtpMsg "github.com/wmnsk/go-gtp/gtpv1/message"
 
-	"github.com/projectdiscovery/n3iwf/internal/gtp/handler"
-	n3iwfContext "github.com/projectdiscovery/n3iwf/pkg/context"
-	"github.com/projectdiscovery/n3iwf/pkg/logger"
+	"github.com/iami317/n3iwf/internal/gtp/handler"
+	n3iwfContext "github.com/iami317/n3iwf/pkg/context"
+	"github.com/iami317/n3iwf/pkg/logger"
 )
 
 var gtpContext context.Context = context.TODO()

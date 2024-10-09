@@ -1,7 +1,7 @@
 package context
 
 import (
-	"git.cs.nctu.edu.tw/calee/sctp"
+	"github.com/iami317/sctp"
 )
 
 type NGAPServer struct {
